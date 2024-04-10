@@ -1,0 +1,19 @@
+{
+  "name": "griffen",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@fontsource-variable/dosis": "^5.0.19",
+    "astro": "^4.4.11",
+    "astro-seo": "^0.8.3",
+    "bulma": "^1.0.0",
+    "sass": "^1.71.1"
+  }
+}

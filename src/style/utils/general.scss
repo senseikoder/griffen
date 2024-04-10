@@ -1,0 +1,17 @@
+.overflow-auto {
+  overflow: auto;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.has-background-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-home {
+  background-image: url('/img/banner-home.webp');
+  background-position: top center;
+}

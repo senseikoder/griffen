@@ -1,0 +1,16 @@
+---
+import SocialBar from "./SocialBar.astro";
+
+const year = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <div class="mb-4 is-flex is-justify-content-center">
+      <SocialBar />
+    </div>
+    <p>
+      © Griffen Construction {year}
+    </p>
+  </div>
+</footer>

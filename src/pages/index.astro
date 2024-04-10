@@ -1,0 +1,37 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+
+import Who from "../components/Who.astro";
+import What from "../components/What.astro";
+import Contact from "../components/Contact.astro";
+---
+
+<BaseLayout
+  pageTitle="Home"
+  pageDescription="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, cupiditate. Sit consequuntur, quas voluptate quidem facere ipsum doloremque! Possimus deserunt eos voluptatibus molestias, minima id dolorum excepturi doloremque odit repudiandae?"
+>
+  <section class="hero is-fullheight has-background-image banner-home">
+    <div class="is-overlay"></div>
+    <div class="hero-body is-relative is-justify-content-center">
+      <h1 class="subtitle is-1">What we build defines who we are</h1>
+    </div>
+  </section>
+
+  <Who />
+
+  <What/>
+
+  <Contact/>
+
+</BaseLayout>
+
+<style>
+  .is-overlay {
+    background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    );
+  }
+</style>

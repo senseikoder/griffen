@@ -1,0 +1,46 @@
+@use "../utils/colors.scss" as colors;
+
+.navbar {
+  background-color: transparent;
+  transition: all 0.2s;
+
+  &.is-transparent {
+    background-color: colors.$white;
+  }
+
+  .navbar-item:hover,
+  .navbar-item:focus,
+  .navbar-item:active {
+    background-color: colors.$white;
+    color: colors.$primary !important;
+  }
+
+  .navbar-item img {
+    max-height: none;
+  }
+
+  .navbar-menu {
+    box-shadow: none;
+  }
+
+  .navbar-burger:hover {
+    background-color: colors.$white;
+  }
+
+  .logo-image {
+    margin-right: 1rem;
+  }
+
+  .navbar-brand h2 {
+    color: #333 !important
+  }
+}
+
+@media (max-width: 768px) {
+
+
+  .navbar.is-transparent {
+    background-color: colors.$white;
+  }
+
+}
